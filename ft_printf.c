@@ -99,3 +99,29 @@ int	ft_output(va_list a_list, const char ch)
 		return (ft_c_printf('%'));
 	return (0);
 }
+/*
+int main()
+{
+	int		n;
+	int 	k;
+	int		a = 10;
+	int		*ptr = &a;
+
+	//char	str[] = "Hello%c 1%%23%s %d %i %u %x %X %p\n";
+	char	str[] = "Hello %s hello\n";
+
+	//n = ft_printf(str, '!', " abc", -100050, 0x12f, 5, 0x12f, 0x32aF, 0x32aF, ptr);
+	n = ft_printf("%p", "");
+	printf("\ncount = %d\n", n);
+	k = 0;
+	//k = printf(str, '!', " abc", -100050, 0x12f, 5, 0x12f, 0x32aF, 0x32aF, ptr);
+	k = printf("%p", "");
+	printf("\ncount = %d\n", k);
+
+	/*int	d;
+	d = write(1, "\n", 1);
+	printf("%d\n", d);*/
+
+	return (0);
+}
+*/
